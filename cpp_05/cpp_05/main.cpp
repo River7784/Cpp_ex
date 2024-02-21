@@ -37,3 +37,21 @@ void dispCircle(CircleType c) {
     cout <<" 중심 : (" << c.center.x <<"," << c.center.y << ")";
     cout <<" 반경 : " << c.radius << endl;
 }
+
+int main(){
+    CircleType c1 = {{0,0}, 10};    //중심(0,0) 반경10으로 초기화
+    CircleType c2 = {{30,10}, 5};
+    
+    cout << "원1" << endl;
+    dispCircle(c1);
+    cout << " 원1의 면적:" << circleArea(c1) << endl;
+    cout << "원2" << endl;
+    dispCircle(c2);
+    cout << " 원2의 면적:" << circleArea(c2) << endl;
+    
+    if(chkOverlap(c1,c2))
+        cout << "두 원은 중첩됩니다." << endl;
+    else
+        cout << "두 원은 중첩되지 않습니다." << endl;
+    return 0;
+}
