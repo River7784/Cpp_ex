@@ -39,3 +39,23 @@ class CircleClass {
         cout << "반경 :" << radius << endl;
     }
 };
+
+int main(){
+    CircleClass c1, c2;
+    c1.init(0, 0, 10);
+    c2.init(30, 10, 5);
+    
+    cout << "원1" << endl;
+    c1.display();
+    cout << "원1의 면적 : " << c1.area() << endl;
+    
+    cout << "원2" << enld;
+    c2.display();
+    cout << "원2의 면적 : " << c2.area() << endl << endl;
+    
+    if (c1.chkOverlap(c2))
+        cout << "두 원은 중첩됩니다." << endl;
+    else
+        cout << "두 원은 중첩되지 않습니다." << endl;
+    return 0;
+}
