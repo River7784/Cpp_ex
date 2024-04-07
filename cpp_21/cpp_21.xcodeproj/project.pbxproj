@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		315D40602BC2E7E000CB6B43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315D405F2BC2E7E000CB6B43 /* main.cpp */; };
+		315D40602BC2E7E000CB6B43 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315D405F2BC2E7E000CB6B43 /* Person.cpp */; };
+		315D40682BC2EB6500CB6B43 /* PrsnMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 315D40672BC2EB5F00CB6B43 /* PrsnMain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +25,9 @@
 
 /* Begin PBXFileReference section */
 		315D405C2BC2E7E000CB6B43 /* cpp_21 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_21; sourceTree = BUILT_PRODUCTS_DIR; };
-		315D405F2BC2E7E000CB6B43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		315D405F2BC2E7E000CB6B43 /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
 		315D40662BC2E7F100CB6B43 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		315D40672BC2EB5F00CB6B43 /* PrsnMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrsnMain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 		315D405E2BC2E7E000CB6B43 /* cpp_21 */ = {
 			isa = PBXGroup;
 			children = (
-				315D405F2BC2E7E000CB6B43 /* main.cpp */,
+				315D405F2BC2E7E000CB6B43 /* Person.cpp */,
+				315D40672BC2EB5F00CB6B43 /* PrsnMain.cpp */,
 			);
 			path = cpp_21;
 			sourceTree = "<group>";
@@ -121,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				315D40602BC2E7E000CB6B43 /* main.cpp in Sources */,
+				315D40602BC2E7E000CB6B43 /* Person.cpp in Sources */,
+				315D40682BC2EB6500CB6B43 /* PrsnMain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
