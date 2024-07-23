@@ -26,7 +26,7 @@ public:
         }
         return arr[i];  //i번째 원소의 값 반환
     }
-    int operator[](int i) {
+    int operator[](int i) const{
         if (i < 0 || i >= limit) {
             std::cout << "첨자가 범위를 벗어나 프로그램을 종료합니다.";
             exit(EXIT_FAILURE);
