@@ -23,7 +23,7 @@ public:
             cout << m << "m ";
         if(cm|| !m)
             cout << cm << "cm";
-        couy << endl;
+        cout << endl;
     }
     int getM() const{return m;} //  데이터멤버 m 반환
     int getCm() const{return cm;}   // 데이터 멤버 cm 반환
