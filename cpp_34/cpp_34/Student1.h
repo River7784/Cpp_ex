@@ -12,7 +12,7 @@
 #include "Person1.h"
 
 // Person을 상속받아서 선언
-class Student : Public Person {
+class Student : public Person {
     string school;
     
 public:
