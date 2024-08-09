@@ -24,7 +24,7 @@ public:
         cout << "Student의 소멸자" << endl;
     }
     string getSchool() const{
-        return shchool;
+        return school;
     }
     void print() const {
         Person::print();

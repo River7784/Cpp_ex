@@ -6,9 +6,13 @@
 //
 
 #include <iostream>
+#include "Person2.h"
+#include "Student2.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(){
+    Student mac("Mac", "univ");
+    cout << mac.getName() << " goes to "
+    << mac.getSchool() << endl;
     return 0;
 }
