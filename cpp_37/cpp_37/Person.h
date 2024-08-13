@@ -16,7 +16,7 @@ class Person {
     
 public:
     Person(const string& n) : name(n){}
-    string getName() const { return name }
+    string getName() const { return name; }
     void print() const { cout << name; }
 };
 
