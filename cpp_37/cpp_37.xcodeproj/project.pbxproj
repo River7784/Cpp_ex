@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A70C1F5C2C68E1380028752A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A70C1F5B2C68E1380028752A /* main.cpp */; };
+		A70C1F5C2C68E1380028752A /* PArrMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A70C1F5B2C68E1380028752A /* PArrMain.cpp */; };
+		A70C1F782C6CB6BA0028752A /* SBinding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A70C1F772C6CB6BA0028752A /* SBinding.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +25,10 @@
 
 /* Begin PBXFileReference section */
 		A70C1F582C68E1380028752A /* cpp_37 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_37; sourceTree = BUILT_PRODUCTS_DIR; };
-		A70C1F5B2C68E1380028752A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A70C1F5B2C68E1380028752A /* PArrMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PArrMain.cpp; sourceTree = "<group>"; };
 		A70C1F622C68E14D0028752A /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A70C1F632C68E1B50028752A /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A70C1F772C6CB6BA0028752A /* SBinding.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SBinding.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +63,8 @@
 			children = (
 				A70C1F622C68E14D0028752A /* Person.h */,
 				A70C1F632C68E1B50028752A /* Student.h */,
-				A70C1F5B2C68E1380028752A /* main.cpp */,
+				A70C1F5B2C68E1380028752A /* PArrMain.cpp */,
+				A70C1F772C6CB6BA0028752A /* SBinding.cpp */,
 			);
 			path = cpp_37;
 			sourceTree = "<group>";
@@ -123,7 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A70C1F5C2C68E1380028752A /* main.cpp in Sources */,
+				A70C1F5C2C68E1380028752A /* PArrMain.cpp in Sources */,
+				A70C1F782C6CB6BA0028752A /* SBinding.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
