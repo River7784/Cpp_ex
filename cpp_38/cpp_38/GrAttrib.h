@@ -12,7 +12,7 @@ using namespace std;
 
 class GrAttrib {
     string lineColor;   //선 색 속성
-    string fillColor;   //내부 영역 색. ㅗㄱ성
+    string fillColor;   //내부 영역 색 속성
     
 public:
     //그래픽 속성 객체 생성자
