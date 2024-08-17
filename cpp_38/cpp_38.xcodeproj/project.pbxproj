@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A70C1F712C6CB6920028752A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A70C1F702C6CB6920028752A /* main.cpp */; };
+		A70C1F712C6CB6920028752A /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A70C1F702C6CB6920028752A /* Circle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +24,10 @@
 
 /* Begin PBXFileReference section */
 		A70C1F6D2C6CB6920028752A /* cpp_38 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_38; sourceTree = BUILT_PRODUCTS_DIR; };
-		A70C1F702C6CB6920028752A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A70C1F702C6CB6920028752A /* Circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
 		A70C1F792C6DAAA20028752A /* GrAttrib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrAttrib.h; sourceTree = "<group>"; };
 		A70C1F7A2C6F8D940028752A /* Figure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Figure.h; sourceTree = "<group>"; };
+		A70C1F7B2C70C7620028752A /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +60,10 @@
 		A70C1F6F2C6CB6920028752A /* cpp_38 */ = {
 			isa = PBXGroup;
 			children = (
+				A70C1F7B2C70C7620028752A /* Circle.h */,
 				A70C1F792C6DAAA20028752A /* GrAttrib.h */,
 				A70C1F7A2C6F8D940028752A /* Figure.h */,
-				A70C1F702C6CB6920028752A /* main.cpp */,
+				A70C1F702C6CB6920028752A /* Circle.cpp */,
 			);
 			path = cpp_38;
 			sourceTree = "<group>";
@@ -123,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A70C1F712C6CB6920028752A /* main.cpp in Sources */,
+				A70C1F712C6CB6920028752A /* Circle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
