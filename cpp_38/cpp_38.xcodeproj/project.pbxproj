@@ -28,6 +28,7 @@
 		A70C1F792C6DAAA20028752A /* GrAttrib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrAttrib.h; sourceTree = "<group>"; };
 		A70C1F7A2C6F8D940028752A /* Figure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Figure.h; sourceTree = "<group>"; };
 		A70C1F7B2C70C7620028752A /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		A70C1F7C2C734F8C0028752A /* Triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 				A70C1F792C6DAAA20028752A /* GrAttrib.h */,
 				A70C1F7A2C6F8D940028752A /* Figure.h */,
 				A70C1F702C6CB6920028752A /* Circle.cpp */,
+				A70C1F7C2C734F8C0028752A /* Triangle.h */,
 			);
 			path = cpp_38;
 			sourceTree = "<group>";
