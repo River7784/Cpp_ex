@@ -21,7 +21,7 @@ public:
         : cx(x), cy(y), radius(r)
     
     // 원의 이동, 원점 기준 크기 조정, 그리기 멤버함수
-    void move(double dx, double dy){};
+    void move(double dx, double dy);
     void scale(double s);
     void draw() const;
 };

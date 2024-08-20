@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A70C1F712C6CB6920028752A /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A70C1F702C6CB6920028752A /* Circle.cpp */; };
 		A70C1F7F2C74A1620028752A /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A70C1F7D2C74A1620028752A /* Triangle.cpp */; };
+		A70C1F822C74A42C0028752A /* FigMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A70C1F802C74A42C0028752A /* FigMain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		A70C1F7B2C70C7620028752A /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
 		A70C1F7C2C734F8C0028752A /* Triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
 		A70C1F7D2C74A1620028752A /* Triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		A70C1F802C74A42C0028752A /* FigMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FigMain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				A70C1F7A2C6F8D940028752A /* Figure.h */,
 				A70C1F7C2C734F8C0028752A /* Triangle.h */,
 				A70C1F7D2C74A1620028752A /* Triangle.cpp */,
+				A70C1F802C74A42C0028752A /* FigMain.cpp */,
 			);
 			path = cpp_38;
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A70C1F712C6CB6920028752A /* Circle.cpp in Sources */,
+				A70C1F822C74A42C0028752A /* FigMain.cpp in Sources */,
 				A70C1F7F2C74A1620028752A /* Triangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
