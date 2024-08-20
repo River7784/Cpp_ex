@@ -11,7 +11,7 @@
 #include "Figure.h"
 using namespace std;
 
-class Trianlge : public Figure {
+class Triangle : public Figure {
     double x1, y1, x2, y2, x3, y3;
     
 public:
