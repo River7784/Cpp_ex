@@ -26,6 +26,7 @@
 		A70C1F8C2C775E140028752A /* cpp_39 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_39; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70C1F8F2C775E140028752A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A70C1F962C775E380028752A /* MIStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIStudent.h; sourceTree = "<group>"; };
+		A70C1F972C78CDF00028752A /* MIEmployee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIEmployee.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				A70C1F962C775E380028752A /* MIStudent.h */,
+				A70C1F972C78CDF00028752A /* MIEmployee.h */,
 				A70C1F8F2C775E140028752A /* main.swift */,
 			);
 			path = cpp_39;
