@@ -27,6 +27,7 @@
 		A70C1F8F2C775E140028752A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A70C1F962C775E380028752A /* MIStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIStudent.h; sourceTree = "<group>"; };
 		A70C1F972C78CDF00028752A /* MIEmployee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIEmployee.h; sourceTree = "<group>"; };
+		A70C1F982C7AF1070028752A /* MIParttime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIParttime.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 			children = (
 				A70C1F962C775E380028752A /* MIStudent.h */,
 				A70C1F972C78CDF00028752A /* MIEmployee.h */,
+				A70C1F982C7AF1070028752A /* MIParttime.h */,
 				A70C1F8F2C775E140028752A /* main.swift */,
 			);
 			path = cpp_39;
