@@ -1,15 +1,8 @@
-//
-//  Triangle.h
-//  cpp_38
-//
-//  Created by 유가람 on 8/19/24.
-//
+#ifndef TRIANGLE_H
+#define TRIANGLE_H
 
-#ifndef Triangle_h
-#define Triangle_h
 #include <iostream>
 #include "Figure.h"
-using namespace std;
 
 class Triangle : public Figure {
     double x1, y1, x2, y2, x3, y3;
@@ -22,4 +15,4 @@ public:
     void draw() const;
 };
 
-#endif /* Triangle_h */
+#endif /* TRIANGLE_H */
