@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A70C1F902C775E140028752A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70C1F8F2C775E140028752A /* main.swift */; };
+		A70C1F9A2C7E02A60028752A /* MIMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A70C1F992C7E02A60028752A /* MIMain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 
 /* Begin PBXFileReference section */
 		A70C1F8C2C775E140028752A /* cpp_39 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_39; sourceTree = BUILT_PRODUCTS_DIR; };
-		A70C1F8F2C775E140028752A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A70C1F962C775E380028752A /* MIStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIStudent.h; sourceTree = "<group>"; };
 		A70C1F972C78CDF00028752A /* MIEmployee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIEmployee.h; sourceTree = "<group>"; };
 		A70C1F982C7AF1070028752A /* MIParttime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIParttime.h; sourceTree = "<group>"; };
+		A70C1F992C7E02A60028752A /* MIMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MIMain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 				A70C1F962C775E380028752A /* MIStudent.h */,
 				A70C1F972C78CDF00028752A /* MIEmployee.h */,
 				A70C1F982C7AF1070028752A /* MIParttime.h */,
-				A70C1F8F2C775E140028752A /* main.swift */,
+				A70C1F992C7E02A60028752A /* MIMain.cpp */,
 			);
 			path = cpp_39;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A70C1F902C775E140028752A /* main.swift in Sources */,
+				A70C1F9A2C7E02A60028752A /* MIMain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
