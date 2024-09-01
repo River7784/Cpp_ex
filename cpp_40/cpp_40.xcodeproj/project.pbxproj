@@ -28,6 +28,7 @@
 		A7F1A2E72C7F507C00097B1A /* CBPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBPerson.h; sourceTree = "<group>"; };
 		A7F1A2E82C81CFCF00097B1A /* CBStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBStudent.h; sourceTree = "<group>"; };
 		A7F1A2E92C8344D500097B1A /* CBEmployee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBEmployee.h; sourceTree = "<group>"; };
+		A7F1A2EA2C84A3E000097B1A /* CBParttime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBParttime.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +45,6 @@
 		A7F1A2D42C7F505F00097B1A = {
 			isa = PBXGroup;
 			children = (
-				A7F1A2E92C8344D500097B1A /* CBEmployee.h */,
 				A7F1A2DF2C7F505F00097B1A /* cpp_40 */,
 				A7F1A2DE2C7F505F00097B1A /* Products */,
 			);
@@ -64,6 +64,8 @@
 				A7F1A2E02C7F505F00097B1A /* main.cpp */,
 				A7F1A2E72C7F507C00097B1A /* CBPerson.h */,
 				A7F1A2E82C81CFCF00097B1A /* CBStudent.h */,
+				A7F1A2E92C8344D500097B1A /* CBEmployee.h */,
+				A7F1A2EA2C84A3E000097B1A /* CBParttime.h */,
 			);
 			path = cpp_40;
 			sourceTree = "<group>";
