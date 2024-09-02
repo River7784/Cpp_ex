@@ -19,7 +19,7 @@ public:
     Employee(const string& n, const string& c) : Person(n), company(c) {}
     void print() const{
         Person::print();
-        cout << " is employed by " << compnay << endl;
+        cout << " is employed by " << company << endl;
     }
 };
 

@@ -6,9 +6,11 @@
 //
 
 #include <iostream>
+#include "CBParttime.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(){
+    Parttime ann("Ann", "ABC Univ", "DEF co.");
+    ann.Student::print();
+    ann.Employee::print();
     return 0;
 }

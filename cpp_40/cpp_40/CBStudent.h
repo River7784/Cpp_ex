@@ -13,13 +13,13 @@
 using namespace std;
 
 class Student : public Person {
-    string school;
+    string School;
     
 public:
-    Student(const string& n, const string& s) : Person(n), shcool(s) {}
+    Student(const string& n, const string& s) : Person(n), School(s) {}
     void print() const{
         Person::print();
-        cout << " goes to " << school << endl;
+        cout << " goes to " << School << endl;
     }
 };
 
