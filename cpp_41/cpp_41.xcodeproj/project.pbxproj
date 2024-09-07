@@ -22,6 +22,7 @@
 		A7F1A2F42C89B39A00097B1A /* cpp_41 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_41; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F1A2FE2C89B3C800097B1A /* VBPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBPerson.h; sourceTree = "<group>"; };
 		A7F1A2FF2C8B2EC200097B1A /* VBStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBStudent.h; sourceTree = "<group>"; };
+		A7F1A3002C8C78A500097B1A /* VBEmployee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBEmployee.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 			children = (
 				A7F1A2FE2C89B3C800097B1A /* VBPerson.h */,
 				A7F1A2FF2C8B2EC200097B1A /* VBStudent.h */,
+				A7F1A3002C8C78A500097B1A /* VBEmployee.h */,
 			);
 			path = cpp_41;
 			sourceTree = "<group>";
