@@ -14,7 +14,7 @@
 class Parttime : public Student, public Employee {
 public:
     //Person의 생성자를 명시적으로 호출
-    Parttime(sconst string& n, const string& s, const string& c) : Person(n), Student(n, s), Employee(n, c){}
+    Parttime(const string& n, const string& s, const string& c) : Person(n), Student(n, s), Employee(n, c){}
     void print() const{
         Student::print();
         Employee::print();

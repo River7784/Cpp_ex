@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A7B1DF0D2C930C82008FD052 /* VBMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B1DF0C2C930C82008FD052 /* VBMain.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		A7F1A2F22C89B39A00097B1A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		A7B1DF0B2C90664D008FD052 /* VBParttime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBParttime.h; sourceTree = "<group>"; };
+		A7B1DF0C2C930C82008FD052 /* VBMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VBMain.cpp; sourceTree = "<group>"; };
 		A7F1A2F42C89B39A00097B1A /* cpp_41 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_41; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F1A2FE2C89B3C800097B1A /* VBPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBPerson.h; sourceTree = "<group>"; };
 		A7F1A2FF2C8B2EC200097B1A /* VBStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBStudent.h; sourceTree = "<group>"; };
@@ -60,6 +65,7 @@
 				A7F1A2FF2C8B2EC200097B1A /* VBStudent.h */,
 				A7F1A3002C8C78A500097B1A /* VBEmployee.h */,
 				A7B1DF0B2C90664D008FD052 /* VBParttime.h */,
+				A7B1DF0C2C930C82008FD052 /* VBMain.cpp */,
 			);
 			path = cpp_41;
 			sourceTree = "<group>";
@@ -121,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B1DF0D2C930C82008FD052 /* VBMain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

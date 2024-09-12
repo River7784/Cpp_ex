@@ -1,3 +1,10 @@
+//
+//  VBStudent.h
+//  cpp_41
+//
+//  Created by 유가람 on 9/6/24.
+//
+
 #ifndef VBStudent_h
 #define VBStudent_h
 #include <iostream>
