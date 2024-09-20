@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7B1DF302C9AEAD1008FD052 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B1DF2F2C9AEAD1008FD052 /* main.cpp */; };
+		A7B1DF302C9AEAD1008FD052 /* SwapFTMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7B1DF2F2C9AEAD1008FD052 /* SwapFTMain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		A7B1DF2C2C9AEAD1008FD052 /* cpp_43 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_43; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7B1DF2F2C9AEAD1008FD052 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A7B1DF2F2C9AEAD1008FD052 /* SwapFTMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SwapFTMain.cpp; sourceTree = "<group>"; };
 		A7B1DF362C9AEADD008FD052 /* SwapFT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapFT.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +58,7 @@
 		A7B1DF2E2C9AEAD1008FD052 /* cpp_43 */ = {
 			isa = PBXGroup;
 			children = (
-				A7B1DF2F2C9AEAD1008FD052 /* main.cpp */,
+				A7B1DF2F2C9AEAD1008FD052 /* SwapFTMain.cpp */,
 				A7B1DF362C9AEADD008FD052 /* SwapFT.h */,
 			);
 			path = cpp_43;
@@ -121,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7B1DF302C9AEAD1008FD052 /* main.cpp in Sources */,
+				A7B1DF302C9AEAD1008FD052 /* SwapFTMain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
